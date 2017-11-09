@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web App</title>
+    <link href="../static/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+    <h1> Internship Task </h1>
+    
+    <div class="message">
+    
+    </div>
+    <form action="{{url_for('success')}}" method="POST">
+        <input title="Your Email is safe with us" placeholder="Enter your email here" type="email" name="email_data" required> <br>
+        
+        <button type="submit"> Submit </button>
+    </div>
+</body>
+</html>
