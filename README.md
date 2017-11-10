@@ -15,7 +15,8 @@ $ psql
 ```sh
 psql-> CREATE DATABASE email_1
 ```
-Change the Database URI in script.py file
+Change the Database URI in script.py file 
+
 Open Python console in the project directory
 
 ```sh
