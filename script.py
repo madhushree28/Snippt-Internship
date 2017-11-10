@@ -13,7 +13,8 @@ def send_email(email):
     from_pass="01interntask"
     message="Hey there!!! Check out our website http://www.mysnippt.com/ "
     subject="Website"
-
+    
+    
     gmail=smtplib.SMTP("smtp.gmail.com",587)
     gmail.ehlo()
     gmail.starttls()
